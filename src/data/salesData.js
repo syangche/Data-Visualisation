@@ -40,3 +40,10 @@ export const weeklyVisitors = Array.from({ length: 52 }, (_, i) => ({
     week: i + 1,
     visitors: Math.floor(Math.random() * 5000) + 10000
 }));
+
+export default {
+    monthlySales,
+    productSales,
+    customerData,
+    weeklyVisitors
+};

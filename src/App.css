@@ -2,6 +2,7 @@
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
+  font: 10px "Arial", sans-serif;
 }
 
 .grid {
@@ -19,7 +20,8 @@
 }
 
 .chartContainer {
-  height: 300px;
+  height: 200px;
+  width : 100%;
   margin-top: 1rem;
 }
 
